@@ -11,6 +11,8 @@ order by nb_of_player desc;
 
 
 
+
+
 Return the names of complete teams only (14 players or more, that is to say a minimum of 7 players and 7 substitute players), sorted by alphabetical order.
 
 SELECT t.name, count(*) as nb_of_player
